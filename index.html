@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        #header_Setting{
+            border-top: 3px solid green;
+            background-color: #b3d6ff;
+        }
+        #Pikachu_Logo{
+            width: 112px;
+            height: 70px;
+            display: inline-block;
+            margin-left: 20%;
+            margin-top: 1%;
+        }
+        #website_Heading{
+            margin-left: 20%;
+            display: inline-block;
+            position: absolute;
+            margin-top: 2%;
+        }
+        #Body_Section{
+            background-color: green;
+            border: 3px solid black;
+            margin-left: 18%;
+            margin-right: 18%;
+            display: inline-block;
+            position: absolute;
+        }
+        #Left_Container{
+            background-color: aqua;
+            border: 2px solid white;
+            padding-bottom: 59%;
+            display: inline-block;
+            width: 25%;
+            float: left;
+        }
+        #Left_table{
+            border: 0px;
+        }
+        #Select_Nav_Table{
+            text-align: center;
+            border-top: 0px;
+            border-left: 0px;
+            border-right: 0px;
+            border-bottom: 1px solid black;
+            font-weight: bold;
+        }
+        .Nav_As_A_Table{
+            border-top: 0px;
+            border-left: 0px;
+            border-right: 0px;
+            width: 1%;
+            border-bottom: 4px dashed black;
+        }
+        #Right_Container{
+            background-color: #808080;
+            border: 2px solid white;
+            display: inline-block;
+            float: right;
+            width: 25%;
+            font-weight: bold;
+            padding-bottom: 72%;
+        }
+        footer{
+            background-color: #a109fe;
+            font-weight: bold;
+            height: 89px;
+            font-size: 28px;
+            display: block;
+            padding: 0%;
+            position: static;
+            margin-top: 47.65%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="header_Setting">
+            <img id="Pikachu_Logo" src="/task14/images/Pokemon-Rom-Hack.jpg" alt="Pikachu Image">
+            <h1 id="website_Heading">My Website</h1>
+        </div>
+    </header>
+    <section id="Body_Section">
+    <div id="Left_Container">
+<table border="2px" id="Left_table">
+    <tr><td id="Select_Nav_Table">SELECT</td></tr>
+    <tr><td class="Nav_As_A_Table">HOME</td></tr>
+    <tr><td class="Nav_As_A_Table">ABOUT</td></tr>
+    <tr><td class="Nav_As_A_Table">CONTACT</td></tr>
+    <tr><td class="Nav_As_A_Table">WHY</td></tr>
+    <tr><td class="Nav_As_A_Table">WHEN</td></tr>
+</table>
+    </div>
+    <div id="Right_Container">
+        <p>right side bar</p>
+    </div>
+    </section>
+    <footer>
+        <p>Footer</p>
+    </footer>
+</body>
+</html>
